@@ -49,3 +49,9 @@ func Test_AddTwoNumbers(t *testing.T) {
 	}
 
 }
+func Test_ZigZagConversion(t *testing.T) {
+
+	r := medium.ZigZagConversion("abcdefghigklmnopqrstuvwxyz1234567890", 6)
+	t.Log(r)
+
+}
