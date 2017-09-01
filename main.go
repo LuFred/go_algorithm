@@ -11,7 +11,7 @@ func main() {
 		Ename: "sss",
 		Eage:  "123",
 	}
-	d := ModelDto{}
+	 d := ModelDto{}
 	Mapper(m, d)
 
 	return
